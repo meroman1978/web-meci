@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <meta name="description" content="Este es el sitio oficial de la familia MECI">
+    <link rel="stylesheet" href="css/style.css">    
+    <script src="js/javascript.js"></script>
+</head>
+<body>	
+    <aside id="mi_columna" class="columna">
+        <div class="box-contacto-1">
+            <h3 class="sub-title-1">Conozca nuestro entorno</h3>
+        </div>        
+        <div class="box-contacto-2">
+            <div class="box-contacto-module-2">
+                <video src="videos/Pexels Videos 2330708.mp4" preload="auto" autoplay loop width="90%" controls></video>
+            </div>
+        </div>
+        <div class="box-contacto-3">
+            <h3 class="sub-title-1"></h3>
+        </div>  
+    </aside>  
+    <section id="mi_seccion" class="seccion">
+        <div class="box-contacto-4">
+            <h3 class="sub-title-1">Ingrese sus datos para tomar contacto con usted</h3>
+        </div>
+        <div class="box-contacto-5">          
+            <div class="box-contacto-module-5">
+                <form action="">   
+                    <table>
+                        <tr>
+                            <td class="alinear_izquierda">
+                                <label class="etiqueta">Nombre:</label>
+                            </td>
+                            <td class="alinear_izquierda">
+                                <input type="text" autocomplete="off" placeholder="Ingrese su nombre completo" id="nombre">                                           
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="alinear_izquierda">
+                                
+                            </td>
+                            <td class="alinear_izquierda">
+                                <p id="msgNombre"></p> 
+                            </td>
+                        </tr>     
+                        <tr>
+                            <td class="alinear_izquierda">
+                                <label class="etiqueta">E-Mail:</label>
+                            </td>
+                            <td class="alinear_izquierda">
+                                <input type="text" autocomplete="off" placeholder="Ingrese su e-mail" id="email">                                          
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="alinear_izquierda">
+                                
+                            </td>
+                            <td class="alinear_izquierda">
+                                <p id="msgEmail"></p>   
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td class="alinear_izquierda">
+                                <label class="etiqueta">Teléfono Móvil:</label>
+                            </td>
+                            <td class="alinear_izquierda">
+                                <input type="text" autocomplete="off" placeholder="Ingrese su teléfono móvil" id="telefonoMovil">                                          
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="alinear_izquierda">
+                                
+                            </td>
+                            <td class="alinear_izquierda">
+                                <p id="msgTelefonoMovil"></p>  
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td class="alinear_izquierda">
+                                <label class="etiqueta">Consulta:</label>
+                            </td>
+                            <td class="alinear_izquierda">
+                                <textarea rows="15" autocomplete="off" placeholder="Ingrese su consulta" id="consulta"></textarea>                                          
+                            </td>
+                        </tr>   
+                        <tr>
+                            <td class="alinear_izquierda">
+                                
+                            </td>
+                            <td class="alinear_izquierda">
+                                <p id="msgConsulta"></p> 
+                            </td>
+                        </tr>    
+                        <tr>
+                            <td class="alinear_izquierda">
+                                <label class="etiqueta">Noticias:</label>
+                            </td>
+                            <td class="alinear_izquierda">
+                                <input type="checkbox" value="1" checked id="noticias">
+                            </td>
+                        </tr>   
+                        <tr>
+                            <td class="alinear_izquierda">
+                                
+                            </td>
+                            <td class="alinear_izquierda">
+                                <p class="texto">Deseo recibir noticias en mi email.</p>
+                            </td>
+                        </tr>     
+                        <tr>
+                            <td>
+                                
+                            </td>
+                            <td>
+                                
+                            </td>
+                        </tr>     
+                        <tr class="alinear_centro">
+                            <td colspan="2">
+                                <button class="boton" type="button" onclick="Registrar_Contacto()">Enviar</button>                                
+                            </td>
+                        </tr>      
+                        <tr class="alinear_centro">
+                            <td colspan="2">
+                                <p id="msgFinal"></p> 
+                            </td>
+                        </tr>                   
+                    </table>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>    

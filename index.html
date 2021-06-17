@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MECI</title>
+    <meta name="description" content="Este es el sitio oficial de la familia MECI">
+    <link rel="stylesheet" href="css/style.css">    
+    <script src="js/javascript.js"></script>
+</head>
+<body>
+    <nav class="nav-container">
+        <div class="menu-container">            
+            <div class="opcion-module">
+                <article class="opcion">
+                    <h3 class="opcion-title" onclick="llamar_a('principal.html')">Home</h3>                    
+                </article>
+                <article class="opcion">
+                    <h3 class="opcion-title" onclick="llamar_a('contacto.html')">Contacto</h3>                    
+                </article>
+            </div>
+            <div class="musica-module">                
+                <audio src="audios/OFFICIAL Somewhere over the Rainbow - Israel IZ Kamakawiwoʻole (NUEVOEXITO.ORG).mp3" preload="auto" autoplay loop width="50%" controls></audio>                   
+            </div>
+        </div>
+    </nav>  
+    <iframe src="principal.html" frameborder="0" width="100%" height="665px" scrolling="auto" id="iframe_contenido"></iframe>           
+    <footer id="mi_pie" class="pie">
+        <p class="informacion">
+        &copy; 2021  MECI - All rights reserved
+        </p>
+    </footer>    
+</body>
+</html>
